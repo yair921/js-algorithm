@@ -1,6 +1,22 @@
 import { countItems, countItemsString, distinct, order } from './arrays.js';
 import { fibonacciSequence } from './algorithms.js';
 import { get } from './api.js';
+import {
+    countItems,
+    countItemsString,
+    distinct,
+    order,
+    getMax
+} from './arrays.js';
+import {
+    fibonacciSequence
+} from './algorithms.js';
+import {
+    firstletter
+} from './strings.js';
+import {
+    getDivisores
+} from './maths.js';
 
 //order([]);
 //countItems();
@@ -8,3 +24,6 @@ import { get } from './api.js';
 //distinct();
 //fibonacciSequence(10);
 (async () => console.log(await get('https://encrypted.google.com/')))();
+//getMax();
+//firstletter();
+getDivisores(300, 10);

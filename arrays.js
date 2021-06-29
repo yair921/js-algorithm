@@ -71,3 +71,14 @@ export function order(array, areNumbers = true) {
     console.log(result);
     return result;
 }
+
+
+/**
+ * Get max value.
+ */
+ export function getMax() {
+    const ages = [30, 26, 27, 26, 26, 28, 28, 29, 29, 30];
+    let result = Math.max(...ages);
+    console.log(result);
+    return result;
+}
