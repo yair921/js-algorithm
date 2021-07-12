@@ -1,5 +1,6 @@
 /**
  * Returns unique values
+ * { '26': 3, '27': 1, '28': 2, '29': 2, '30': 1 }
  */
  export function countItems() {
     const ages = [26, 27, 26, 26, 28, 28, 29, 29, 30];
@@ -16,6 +17,7 @@
 
 /**
  * Item array counter string
+ * 26=>3:27=>1:28=>2:29=>2:30=>1
  */
  export function countItemsString() {
     const ages = [26, 27, 26, 26, 28, 28, 29, 29, 30];
@@ -42,6 +44,7 @@
 
 /**
  * Returns unique values
+ * [ 26, 27, 28, 29, 30 ]
  */
  export function distinct() {
     const unique = (value, index, self) => {
@@ -54,6 +57,7 @@
 
 /**
  * Returns ordered array
+ * [ 1,  1,  2,  2, 10, 10, 20, 30, 50 ]
  */
 export function order(array, areNumbers = true) {
     if (array.length === 0) {
@@ -75,6 +79,7 @@ export function order(array, areNumbers = true) {
 
 /**
  * Get max value.
+ * 30
  */
  export function getMax() {
     const ages = [30, 26, 27, 26, 26, 28, 28, 29, 29, 30];
